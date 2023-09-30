@@ -18,7 +18,7 @@ This Chrome extension is designed to provide a seamless screen recording and sha
 
 ## Features
 
-````markdown
+```markdown
 - **Screen Recording**: Capture your screen with ease, including full-screen and custom region recording options.
 
 - **Pixel-Perfect Design**: The extension's user interface matches the design specifications precisely for a seamless user experience.
@@ -33,9 +33,11 @@ This Chrome extension is designed to provide a seamless screen recording and sha
 
 - **Error Handling**: Gracefully handles potential issues during the submission process and provides appropriate user feedback.
 
+```
+
 ## Installation
 
-````markdown
+```markdown
 1. Open Google Chrome and go to `chrome://extensions/`.
 
 2. Enable "Developer mode" by toggling the switch in the upper right corner.
@@ -44,6 +46,8 @@ This Chrome extension is designed to provide a seamless screen recording and sha
 
 4. The Screen Recording Extension will be added to your Chrome browser.
 
+```
+
 ## Usage
 
 ```markdown
@@ -51,13 +55,13 @@ This Chrome extension is designed to provide a seamless screen recording and sha
 
 2. Use the intuitive controls to start and stop screen recording.
 
-3. Once recording is complete, the extension will prompt you to submit the recorded content to a specified endpoint.
+3. Once the recording is complete, the extension will prompt you to submit the recorded content to a specified endpoint.
 
 4. Follow the on-screen instructions to complete the submission process.
+
+```
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
-```
-````
-````
+
