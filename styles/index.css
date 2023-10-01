@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.popup-modal {
+  width: 280px;
+  background: #fff;
+  padding: 1.6rem;
+}
+
+/* styling header */
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-header img {
+  display: block;
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+}
+
+.header-cta {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-cta svg {
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+
+/* styling for body */
+
+.popup-body {
+  margin: 2.2rem auto 1.5rem;
+}
+
+.popup-body h3 {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.record-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.record-type {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.record-type p {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+  color: #928fab;
+  transition: all 0, 3s ease-in-out;
+}
+
+.record-type:hover p {
+  color: #120b48;
+}
+
+/* toggle buttons */
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid #100a42;
+  padding: 1rem;
+  height: 55px;
+  margin-bottom: 1rem;
+}
+
+.toggle .label {
+  display: flex;
+  align-items: center;
+}
+
+.toggle .label p {
+  margin-left: 10px;
+  color: #100a42;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Styling for the custom toggle container */
+.custom-toggle,
+.custom-toggle2 {
+  width: 36px;
+  height: 20px;
+  border-radius: 12px;
+  background: #120b48; /* Background color when active */
+  position: relative;
+  padding: 2px; /* Padding for space between the button and container */
+}
+
+/* Hide the default checkbox input */
+.custom-toggle input[type="checkbox"],
+.custom-toggle2 input[type="checkbox"] {
+  display: none;
+}
+
+/* Styling for the label that acts as the toggle button */
+.custom-toggle label,
+.custom-toggle2 label {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white; /* Background color of the button */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: left 0.2s ease-in-out; /* Animation for the left position */
+  left: 2px; /* Initial position with padding */
+}
+
+/* Styling for the label when the checkbox is checked (active state) */
+.custom-toggle input[type="checkbox"]:checked + label,
+.custom-toggle2 input[type="checkbox"]:checked + label {
+  left: 18px; /* Adjusted position for checked state with padding */
+}
+
+button {
+  height: 51px;
+  display: block;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: 12px;
+  border: 1px solid #120b48;
+  background: #120b48;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 2rem;
+  outline: none;
+}
+
+button:hover {
+  color: #120b48;
+  background: transparent;
+}
