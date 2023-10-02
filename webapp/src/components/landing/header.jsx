@@ -14,8 +14,8 @@ const Header = () => {
         id="work"
         className="flex text-base font-medium items-center gap-x-10"
       >
-        <p>Features</p>
-        <p>How It Works</p>
+        <p className="cursor-pointer">Features</p>
+        <p className="cursor-pointer">How It Works</p>
       </div>
 
       <div>

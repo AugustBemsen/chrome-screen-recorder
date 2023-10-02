@@ -1,5 +1,5 @@
 import { features } from "./data";
-import videorepo from "../../assets/videorepo.svg";
+import videorepo from "../../assets/videorepo.png";
 
 const Features = () => {
   return (
@@ -17,9 +17,12 @@ const Features = () => {
         <div className="flex-1 flex flex-col gap-y-8 sm:gap-y-5">
           {features.map((feature) => {
             return (
-              <div className="flex flex-col justify-center sm:flex-row gap-x-6 items-center sm:items-baseline" key={feature.id}>
+              <div
+                className="flex flex-col justify-center sm:flex-row gap-x-6 items-center sm:items-baseline"
+                key={feature.id}
+              >
                 <img
-                  className="w-[32px]"
+                  className="w-[32px] object-cover"
                   src={feature.icon}
                   alt={feature.text}
                 />
@@ -27,7 +30,10 @@ const Features = () => {
                   <p className="text-[#1B233D] text-center sm:text-start font-semibold text-[28px]">
                     {feature.text}
                   </p>
-                  <p className="text-[#616163] text-center sm:text-start text-[20px]" id="work">
+                  <p
+                    className="text-[#616163] text-center sm:text-start text-[20px]"
+                    id="work"
+                  >
                     {feature.desc}
                   </p>
                 </div>
@@ -37,7 +43,7 @@ const Features = () => {
         </div>
 
         <div className="flex-1">
-          <img className="h-[454px]" src={videorepo} alt="" />
+          <img className="h-[100%] object-cover" src={videorepo} alt="" />
         </div>
       </div>
     </div>

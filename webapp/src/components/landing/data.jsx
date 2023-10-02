@@ -6,9 +6,7 @@ import one from "../../assets/one.svg";
 import two from "../../assets/two.svg";
 import three from "../../assets/three.svg";
 
-import rec1 from "../../assets/rec-1.svg";
-import rec2 from "../../assets/rec-2.svg";
-import rec3 from "../../assets/rec-3.svg";
+import rect from "../../assets/feat-rect.png";
 
 export const features = [
   {
@@ -39,7 +37,7 @@ export const how = [
     step: one,
     title: "Record Screen",
     desc: 'Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.',
-    img: rec1,
+    img: rect,
   },
 
   {
@@ -47,7 +45,7 @@ export const how = [
     step: two,
     title: "Share Your Recording",
     desc: "We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.",
-    img: rec2,
+    img: rect,
   },
 
   {
@@ -55,6 +53,6 @@ export const how = [
     step: three,
     title: "Learn Effortlessly",
     desc: "Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.",
-    img: rec3,
+    img: rect,
   },
 ];
